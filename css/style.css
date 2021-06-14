@@ -1,0 +1,11 @@
+.topo{
+    background: #F28095 0% 0% no-repeat padding-box;
+    height: 120px;
+    border-bottom: 5px solid #D94169;
+}
+
+.topo p{
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+}
