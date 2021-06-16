@@ -212,7 +212,7 @@ html {
 
 @media (max-width: 768px) {
   .slider {
-    height: 530px;
+    height: 500px;
   }
   .container-slider {
     margin: 1rem 3rem;
