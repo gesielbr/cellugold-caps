@@ -8,27 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .btn-primary.focus,
-.btn-primary:focus {
-  box-shadow: unset;
-}
-
-.btn.focus,
-.btn:focus {
-  outline: unset;
-  box-shadow: unset;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
-  background-color: transparent;
-} */
-
 .btn:hover {
   color: inherit;
 }
@@ -42,7 +21,7 @@ a {
 .topo p {
   color: #ffffff;
   margin: 0;
-  font-size: 24px;
+  font-size: clamp(20px, 4vw, 24px);
 }
 
 .introduction {
@@ -233,7 +212,7 @@ a {
 
 @media (max-width: 768px) {
   .slider {
-    height: 600px;
+    height: 530px;
   }
   .container-slider {
     margin: 1rem 3rem;
