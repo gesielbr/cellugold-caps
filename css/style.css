@@ -141,10 +141,11 @@ html {
 
 .beneficios p {
   color: #f28095;
-  font-size: clamp(16px, 4vw, 20px);
+  font-size: clamp(16px, 4vw, 18px);
   line-height: 100%;
   font-weight: bold;
   margin-top: 0.3rem;
+  margin-bottom: 2rem;
 }
 
 /* PEÇA AGORA */
@@ -190,7 +191,7 @@ html {
 .btn-frete {
   font-size: clamp(20px, 4vw, 30px);
   background-color: #169c24;
-  border-radius: 30px;
+  border-radius: 50px;
   color: #ffffff;
   line-height: 120%;
   text-transform: uppercase;
