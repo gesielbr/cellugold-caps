@@ -21,3 +21,21 @@ var quantidadeAleatoria = random(15, 25);
 $(document).ready(function () {
   $(".quantidade").append(quantidadeAleatoria);
 });
+
+let images = [
+  "https://picsum.photos/200/300",
+  "https://picsum.photos/200/301",
+  "https://picsum.photos/200/302",
+];
+
+let index = 0;
+const imgElement = document.querySelector("#mainPhoto");
+
+function change() {
+  imgElement.src = images[index];
+  index > 1 ? (index = 0) : index++;
+}
+
+window.onload = function () {
+  setInterval(change, 1000);
+};
