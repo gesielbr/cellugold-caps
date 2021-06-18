@@ -280,9 +280,6 @@ html {
 /********** MOBILE ***************/
 
 @media (max-width: 768px) {
-  .slider {
-    height: 460px;
-  }
   .container-slider {
     margin: 1rem 3rem;
     height: auto;
@@ -321,5 +318,13 @@ html {
 
   .slider h1 {
     padding-bottom: 1rem;
+  }
+
+  .pessoas-que-ja-usaram {
+    height: 500px;
+  }
+
+  .resultados {
+    height: 480px;
   }
 }
