@@ -88,7 +88,7 @@ html {
   background: transparent linear-gradient(180deg, #f28095 0%, #d94169 100%) 0%
     0% no-repeat padding-box;
   padding: 2rem 0 2rem;
-  height: 580px;
+  height: 600px;
 }
 
 .slider h1 {
@@ -107,16 +107,11 @@ html {
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   overflow: hidden;
 }
 
 .container-slider p {
   margin: 0;
-}
-
-.conteudo-por-cima {
-  margin-top: -50px;
 }
 
 /* SWIPER SLIDER */
@@ -286,7 +281,7 @@ html {
 
 @media (max-width: 768px) {
   .slider {
-    height: 500px;
+    height: 460px;
   }
   .container-slider {
     margin: 1rem 3rem;
@@ -312,4 +307,19 @@ html {
 }
 
 @media (max-width: 584px) {
+  .swiper-button-prev:after,
+  .swiper-container-rtl .swiper-button-next:after {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .swiper-button-next:after,
+  .swiper-container-rtl .swiper-button-prev:after {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .slider h1 {
+    padding-bottom: 1rem;
+  }
 }
