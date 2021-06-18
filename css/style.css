@@ -116,7 +116,6 @@ html {
   background: transparent linear-gradient(180deg, #f28095 0%, #d94169 100%) 0%
     0% no-repeat padding-box;
   padding: 2rem 0 2rem;
-  height: 600px;
 }
 
 .slider h1 {
@@ -359,11 +358,11 @@ html {
     padding-bottom: 1rem;
   }
 
-  .pessoas-que-ja-usaram {
-    height: 462px;
+  /* .pessoas-que-ja-usaram {
+    height: 490px;
   }
 
   .resultados {
-    height: 440px;
-  }
+    height: 470px;
+  } */
 }
