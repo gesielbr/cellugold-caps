@@ -23,9 +23,9 @@ $(document).ready(function () {
 });
 
 let images = [
-  "https://picsum.photos/200/300",
-  "https://picsum.photos/200/301",
-  "https://picsum.photos/200/302",
+  "img/foto_01.webp",
+  "img/foto_02.webp",
+  "img/foto_03.webp",
 ];
 
 let index = 0;

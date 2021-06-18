@@ -33,13 +33,19 @@
       rel="stylesheet"
     />
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=1" />
+    <link rel="stylesheet" href="css/style.css?v=2" />
 
     <title>Cellugold Caps</title>
   </head>
   <body>
-
     <section class="topo d-flex align-items-center">
       <div class="container">
         <div class="row text-center">
@@ -144,90 +150,64 @@
             <h1>Pessoas que já usaram e aprovaram</h1>
           </div>
         </div>
-      </div>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="container-slider">
-                  <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia nulla dolores doloremque id vero vel nostrum sit
-                    aperiam reprehenderit, fugit voluptates aliquam beatae
-                    officiis dolor unde eveniet sint incidunt in!
-                  </p>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Slider main container -->
+            <div class="wrapper">
+              <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="img/foto_01.webp"
+                      onerror="this.onerror=null; this.src='img/foto_01.png'"
+                      alt="Cliente segurando Cellugld Caps"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="img/foto_02.webp"
+                      onerror="this.onerror=null; this.src='img/foto_02.png'"
+                      alt="Cliente segurando Cellugld Caps"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="img/foto_03.webp"
+                      onerror="this.onerror=null; this.src='img/foto_03.png'"
+                      alt="Cliente segurando Cellugld Caps"
+                    />
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="container-slider">
-                  <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia nulla dolores doloremque id vero vel nostrum sit
-                    aperiam reprehenderit, fugit voluptates aliquam beatae
-                    officiis dolor unde eveniet sint incidunt in!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="container-slider">
-                  <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia nulla dolores doloremque id vero vel nostrum sit
-                    aperiam reprehenderit, fugit voluptates aliquam beatae
-                    officiis dolor unde eveniet sint incidunt in!
-                  </p>
-                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="row text-center">
+          <div class="col">
+            <a href="#peca-agora">
+              <img
+                class="img-fluid pulse mt-5"
+                src="img/botao.webp"
+                onerror="this.onerror=null; this.src='img/botao.png'"
+                alt="Botão Sim eu quero testar o produto"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <div class="container conteudo-por-cima">
-      <div class="row text-center">
-        <div class="col">
-          <a href="#peca-agora">
-            <img
-              class="img-fluid pulse"
-              src="img/botao.webp"
-              onerror="this.onerror=null; this.src='img/botao.png'"
-              alt="Botão Sim eu quero testar o produto"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
 
     <section class="beneficios">
       <div class="container">
@@ -415,90 +395,64 @@
             <h1>Pessoas que já usaram e aprovaram</h1>
           </div>
         </div>
-      </div>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="container-slider">
-                  <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia nulla dolores doloremque id vero vel nostrum sit
-                    aperiam reprehenderit, fugit voluptates aliquam beatae
-                    officiis dolor unde eveniet sint incidunt in!
-                  </p>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Slider main container -->
+            <div class="wrapper">
+              <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="img/foto_01.webp"
+                      onerror="this.onerror=null; this.src='img/foto_01.png'"
+                      alt="Cliente segurando Cellugld Caps"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="img/foto_02.webp"
+                      onerror="this.onerror=null; this.src='img/foto_02.png'"
+                      alt="Cliente segurando Cellugld Caps"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="img/foto_03.webp"
+                      onerror="this.onerror=null; this.src='img/foto_03.png'"
+                      alt="Cliente segurando Cellugld Caps"
+                    />
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="container-slider">
-                  <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia nulla dolores doloremque id vero vel nostrum sit
-                    aperiam reprehenderit, fugit voluptates aliquam beatae
-                    officiis dolor unde eveniet sint incidunt in!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="container-slider">
-                  <p class="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia nulla dolores doloremque id vero vel nostrum sit
-                    aperiam reprehenderit, fugit voluptates aliquam beatae
-                    officiis dolor unde eveniet sint incidunt in!
-                  </p>
-                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="row text-center">
+          <div class="col">
+            <a href="#peca-agora">
+              <img
+                class="img-fluid pulse mt-5"
+                src="img/botao.webp"
+                onerror="this.onerror=null; this.src='img/botao.png'"
+                alt="Botão Sim eu quero testar o produto"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    <div class="container conteudo-por-cima">
-      <div class="row text-center">
-        <div class="col">
-          <a href="#peca-agora">
-            <img
-              class="img-fluid pulse"
-              src="img/botao.webp"
-              onerror="this.onerror=null; this.src='img/botao.png'"
-              alt="Botão Sim eu quero testar o produto"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
 
     <section class="copyright">
       <div class="container">
@@ -526,19 +480,6 @@
       </div>
     </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div class="lastMain">
-            <img id="mainPhoto" />
-            <div class="mainSlider">
-              <img src="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -559,6 +500,64 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        // Optional parameters
+        // direction: "vertical",
+        loop: true,
+        //autoHeight: true, //enable auto height
+
+        autoplay: {
+          delay: 5000,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          // renderBullet: function (index, className) {
+          //   return '<span class="' + className + '">' + (index + 1) + "</span>";
+          // },
+        },
+
+        // slidesPerView: 3,
+        // slidesPerGroup: 3,
+        // loopFillGroupWithBlank: true,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".swiper-container", {});
+    </script>
 
     <script src="js/script.js"></script>
   </body>
