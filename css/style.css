@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 :root {
   --title: clamp(20px, 4vw, 36px);
 }
@@ -78,6 +85,18 @@ html {
 /* SLIDER */
 
 .slider {
+  background: transparent -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(var(--unnamed-color-f28095)),
+      to(var(--unnamed-color-d94169))
+    ) 0% 0% no-repeat padding-box;
+  background: transparent -o-linear-gradient(
+      top,
+      var(--unnamed-color-f28095) 0%,
+      var(--unnamed-color-d94169) 100%
+    ) 0% 0% no-repeat padding-box;
   background: transparent
     linear-gradient(
       180deg,
@@ -85,6 +104,15 @@ html {
       var(--unnamed-color-d94169) 100%
     )
     0% 0% no-repeat padding-box;
+  background: transparent -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#f28095),
+      to(#d94169)
+    ) 0% 0% no-repeat padding-box;
+  background: transparent -o-linear-gradient(top, #f28095 0%, #d94169 100%) 0% 0%
+    no-repeat padding-box;
   background: transparent linear-gradient(180deg, #f28095 0%, #d94169 100%) 0%
     0% no-repeat padding-box;
   padding: 2rem 0 2rem;
@@ -105,7 +133,11 @@ html {
   border-radius: 20px;
   padding: 2rem 1rem;
   height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
 }
@@ -120,8 +152,14 @@ html {
 }
 
 .swiper-container .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
 }
@@ -228,8 +266,14 @@ html {
   line-height: 120%;
   text-transform: uppercase;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 0.5rem 0;
 }
@@ -246,7 +290,7 @@ html {
 /* COPYRIGHT */
 
 .copyright {
-  padding: 5rem 0 2rem;
+  padding: 3rem 0 2rem;
   color: #f28095;
 }
 
@@ -257,7 +301,6 @@ html {
 /* BOTAO PULSAR */
 .pulse:hover {
   -webkit-animation: bounce 0.3s infinite alternate;
-  -moz-animation: bounce 0.3s infinite alternate;
   animation: bounce 0.3s infinite alternate;
 }
 
@@ -266,13 +309,9 @@ html {
     -webkit-transform: scale(1.06);
   }
 }
-@-moz-keyframes bounce {
-  to {
-    -moz-transform: scale(1.06);
-  }
-}
 @keyframes bounce {
   to {
+    -webkit-transform: scale(1.06);
     transform: scale(1.06);
   }
 }
@@ -321,10 +360,10 @@ html {
   }
 
   .pessoas-que-ja-usaram {
-    height: 500px;
+    height: 462px;
   }
 
   .resultados {
-    height: 480px;
+    height: 440px;
   }
 }
